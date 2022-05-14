@@ -2,11 +2,18 @@
 
 ## Running
 
-`docker-compose up -d --build`
+`docker-compose up -d`
 
-## URLs
+## Rebuilding
+
+`docker-compose up --build -d [<service_name>..]`
+
+## Apps
 
 [pgAdmin](http://localhost:5000)
+
+username: admin@admin.com
+password: root
 
 [GraphiQL](http://localhost:3000/graphiql)
 
@@ -14,6 +21,4 @@
 
 ## Seeding
 
-Seed the `postgres` database by running the `./data/schema.sql` script followed by `./data/data.sql`. This can be done using pgAdmin.
-
-Seed data copied from [this repo](https://github.com/graphile/postgraphile/tree/v4/examples/forum).
+A database called `postgres` comes pre-seeded with data copied from [this repo](https://github.com/graphile/postgraphile/tree/v4/examples/forum).

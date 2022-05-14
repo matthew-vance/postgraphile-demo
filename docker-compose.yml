@@ -10,7 +10,7 @@ services:
       DATABASE_URL: postgres://postgres:postgres@postgres/postgres
 
   postgres:
-    image: postgres:alpine
+    build: ./data
     restart: always
     environment:
       POSTGRES_PASSWORD: postgres
