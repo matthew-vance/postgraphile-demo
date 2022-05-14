@@ -19,6 +19,8 @@ password: root
 
 [GraphQL Endpoint](http://localhost:3000/graphql)
 
-## Seeding
+## Data
 
 A database called `postgres` comes pre-seeded with data copied from [this repo](https://github.com/graphile/postgraphile/tree/v4/examples/forum).
+
+Databases can be managed through [pgAdmin](http://localhost:5000).

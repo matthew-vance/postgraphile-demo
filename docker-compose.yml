@@ -1,6 +1,6 @@
 services:
   postgraphile:
-    build: .
+    build: ./postgraphile
     restart: always
     depends_on:
       - postgres
@@ -10,7 +10,7 @@ services:
       DATABASE_URL: postgres://postgres:postgres@postgres/postgres
 
   postgres:
-    build: ./data
+    build: ./db
     restart: always
     environment:
       POSTGRES_PASSWORD: postgres
