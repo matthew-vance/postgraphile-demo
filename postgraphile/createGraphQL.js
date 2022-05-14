@@ -17,6 +17,9 @@ const options = {
   legacyRelations: "omit",
   exportGqlSchemaPath: `${__dirname}/schema.graphql`,
   sortExport: true,
+  pgDefaultRole: "forum_example_anonymous",
+  jwtPgTypeIdentifier: "forum_example.jwt_token",
+  jwtSecret: "s3cre7",
 };
 
 if (!databaseUrl) {

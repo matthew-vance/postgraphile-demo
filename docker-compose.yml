@@ -7,7 +7,7 @@ services:
     ports:
       - 3000:3000
     environment:
-      DATABASE_URL: postgres://postgres:postgres@postgres/postgres
+      DATABASE_URL: postgres://forum_example_postgraphile:xyz@postgres/postgres
 
   postgres:
     build: ./db
