@@ -24,3 +24,5 @@ password: root
 A database called `postgres` comes pre-seeded with data copied from [this repo](https://github.com/graphile/postgraphile/tree/v4/examples/forum).
 
 Databases can be managed through [pgAdmin](http://localhost:5000).
+
+View the db [readme](https://github.com/matthew-vance/postgraphile-demo/blob/main/db/README.md) for a walkthough of the seed setup.
